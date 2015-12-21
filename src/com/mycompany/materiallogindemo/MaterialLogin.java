@@ -49,7 +49,7 @@ public class MaterialLogin {
         TextField passwordTextField = new TextField("", "Password",  20, TextField.PASSWORD);
         Button loginButton;
         Form frm = new Form(new BoxLayout(BoxLayout.Y_AXIS));
-        frm.add(theme.getImage("logo.png"));
+        frm.add(new Label(theme.getImage("logo.png"), "LabelCenter"));
         
         Button noAccountButton;
         if(signup) {
